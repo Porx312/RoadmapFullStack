@@ -1,0 +1,117 @@
+@font-face {
+  font-family: pixel;
+  src: url("./logos/PixelifySans-VariableFont_wght.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: pixel, sans-serif;
+  background-image: url("./assets/pexels-michal-osinski-1863102-3454270.jpg");
+  background-position: center center;
+  background-repeat: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.content{
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 95%;
+ min-height: 90vh;
+ margin: 40px auto;
+ border-radius: 20px;
+  backdrop-filter: blur(100px);
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: start;
+  padding: 2rem;
+  flex-direction: column;
+  color: white;
+}
+.content .text{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.continue-btn{
+  border: 0;
+  width: 30px;
+  border-radius: 360px;
+  height: 30px;
+  background-color: aqua;
+  cursor: pointer;
+  background-color: rgb(255, 0, 128);
+}
+
+.continue-btn img{
+  width: 15px;
+}
+.roadmapArticle{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 70%;
+  gap: 2rem 2rem;
+  flex-wrap: wrap;
+}
+.arrow{
+  border: 1px solid white;
+  width: 30px;
+  position: relative;
+}
+.arrow::after{
+  content: "";
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: white;
+  position: absolute;
+  width: 10px;
+  transform: rotate(-26deg);
+  right: -2px;
+  top: -6px;
+  height: 10px;
+}
+.roadmapitem{
+  cursor: pointer;
+  padding: 20px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all ease-in .1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  
+}
+.roadmapitem img{
+  width: 50%;
+}
+.roadmapitem h2{
+  font-size: 1.2rem;
+}
+.roadmapitem:hover{
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.press{
+  color: rgb(255, 230, 0);
+      font-size: 2rem;
+  animation: press .5s forwards infinite  ease-in-out alternate;
+}
+
+@keyframes press{
+  50%{
+transform: scale(1);
+}
+100%{
+  transform: scale(1.1);
+}
+}
