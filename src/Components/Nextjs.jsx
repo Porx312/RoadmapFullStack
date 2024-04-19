@@ -1,241 +1,241 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const Nodes = () => {
+const Nextjs = () => {
   return (
     <div>
     <Link className="link-back" to={"/"}> <code>&lt;</code></Link>
-    <h2 className="icon">Node.js</h2>
+    <h2 className="icon">Next.js</h2>
     <section className="content-program">
-        <h2>Sesión Básica: Fundamentos de Node.js</h2>
+        <h2>Sesión Básica: Fundamentos de Next.js</h2>
         <article className="basico">
             <div className="item">
-                <h2>Introducción a Node.js</h2>
+                <h2>Introducción a Next.js</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        ¿Qué es Node.js y por qué es importante en el desarrollo de aplicaciones web?
+                        ¿Qué es Next.js y cómo se relaciona con React.js?
                     </li>
                     <li>
                         {" "}
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />{" "}
-                        Instalación y configuración básica de Node.js.
+                        Instalación y configuración básica de Next.js.
                     </li>
                 </ul>
             </div>
             <div className="item">
-                <h2>Modulos y NPM</h2>
+                <h2>Routing y Navegación</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Uso de módulos en Node.js.
+                        Definición de rutas y navegación entre páginas en Next.js.
                     </li>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Gestión de paquetes con npm (Node Package Manager).
+                        Uso de enlaces y rutas dinámicas.
                     </li>
                 </ul>
             </div>
             <div className="item">
-                <h2>Gestión de Archivos y Streams</h2>
+                <h2>Renderizado de Páginas</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Lectura y escritura de archivos en Node.js.
+                        Creación de páginas estáticas y dinámicas en Next.js.
                     </li>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Uso de streams para procesar datos de manera eficiente.
+                        Uso de componentes especiales como `getStaticProps` y `getServerSideProps`.
                     </li>
                 </ul>
             </div>
         </article>
-        <h2>Sesión Intermedia: Avanzando con Node.js</h2>
+        <h2>Sesión Intermedia: Avanzando con Next.js</h2>
         <article className="basico medio">
             <div className="item">
-                <h2>Express.js</h2>
+                <h2>Gestión de Estado</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Introducción a Express.js y creación de servidores web.
+                        Implementación de estado global con Context API o librerías como Redux.
                     </li>
                     <li>
                         {" "}
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />{" "}
-                        Enrutamiento y manejo de peticiones HTTP.
+                        Uso de `useState` y `useEffect` en componentes de Next.js.
                     </li>
                 </ul>
             </div>
 
             <div className="item">
-                <h2>Bases de Datos</h2>
+                <h2>Estilización y CSS</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Conexión a bases de datos SQL y NoSQL.
+                        Integración de estilos globales y locales en Next.js.
                     </li>
                     <li>
                         {" "}
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />{" "}
-                        Uso de ORM/ODM para interactuar con bases de datos.
+                        Uso de librerías de estilos como Styled Components o Tailwind CSS.
                     </li>
                 </ul>
             </div>
             <div className="item">
-                <h2>Middleware y Autenticación</h2>
+                <h2>Gestión de Datos</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Uso de middleware para agregar funcionalidades a las rutas.
+                        Integración de API externas y consumo de datos en Next.js.
                     </li>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Implementación de sistemas de autenticación con Passport.js u otras bibliotecas.
+                        Uso de librerías como Axios o Fetch para realizar peticiones HTTP.
                     </li>
                 </ul>
             </div>
         </article>
-        <h2>Sesión Avanzada: Maestría en Node.js</h2>
+        <h2>Sesión Avanzada: Maestría en Next.js</h2>
         <article className="basico avanzado">
             <div className="item">
-                <h2>Async/Await y Promesas</h2>
+                <h2>Optimización de Rendimiento</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Uso de async/await para manejar código asíncrono de manera más legible.
+                        Estrategias de optimización de carga inicial y navegación en Next.js.
                     </li>
                     <li>
                         {" "}
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />{" "}
-                        Uso de promesas para evitar el callback hell.
+                        Uso de técnicas como preloading, lazy loading y code splitting.
                     </li>
                 </ul>
             </div>
             <div className="item">
-                <h2>Testing y Depuración</h2>
+                <h2>Despliegue y Hosting</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Implementación de pruebas unitarias y de integración.
+                        Configuración de entornos de desarrollo, producción y staging en Next.js.
                     </li>
                     <li>
                         {" "}
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />{" "}
-                        Uso de herramientas de depuración como Node Inspector.
+                        Despliegue de aplicaciones Next.js en plataformas como Vercel, Netlify o AWS.
                     </li>
                 </ul>
             </div>
             <div className="item">
-                <h2>Despliegue y Escalado</h2>
+                <h2>Pruebas y Mantenimiento</h2>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />
-                        Despliegue de aplicaciones Node.js en servidores de producción.
+                        Implementación de pruebas unitarias y de integración en Next.js.
                     </li>
                     <li>
                         {" "}
                         <input
                             type="checkbox"
-                            name="nodejs1"
+                            name="nextjs1"
                             id="check"
                             className="check"
                         />{" "}
-                        Estrategias de escalado horizontal y vertical.
+                        Monitoreo y mantenimiento de aplicaciones Next.js en producción.
                     </li>
                 </ul>
             </div>
         </article>
     </section>
     <p className="conclu">
-        <strong>Conclusión:</strong> Con esta roadmap, podrás avanzar desde los conceptos básicos hasta las técnicas avanzadas de Node.js, permitiéndote construir aplicaciones web escalables y eficientes utilizando este potente entorno de ejecución de JavaScript en el lado del servidor.
+        <strong>Conclusión:</strong> Con esta roadmap, podrás avanzar desde los fundamentos hasta las técnicas avanzadas de Next.js, lo que te permitirá construir aplicaciones web modernas y eficientes con React.js de manera rápida y escalable.
     </p>
 </div>
 
   )
 }
 
-export default Nodes
+export default Nextjs

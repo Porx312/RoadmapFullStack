@@ -7,7 +7,11 @@ import Javascript from "./Components/Javascript"
 import Git from './Components/Git'
 import Github from './Components/Github'
 import Reactx from './Components/Reactx'
-import Nodes from './Components/Nodes'
+import Express from './Components/Express'
+import MongoDb from './Components/MongoDb'
+import Nodex from './Components/Nodex'
+import Nextjs from './Components/Nextjs'
+import Typescript from './Components/Typescript'
 function App() {
 
   return (
@@ -25,7 +29,11 @@ function App() {
               <Route path="/git" element={<Git/>}/>
               <Route path="/github" element={<Github/>}/>
               <Route path="/react" element={<Reactx/>}/>
-              <Route path="/node" element={<Nodes/>}/>
+              <Route path="/node" element={<Nodex/>}/>
+              <Route path="/express" element={<Express/>}/>
+              <Route path="/mongodb" element={<MongoDb/>}/>
+              <Route path="/ts" element={<Typescript/>}/>
+              <Route path="/next" element={<Nextjs/>}/>
             </Routes>
             
           </BrowserRouter>

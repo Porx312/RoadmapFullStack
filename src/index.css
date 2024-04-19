@@ -20,7 +20,7 @@ a{
 }
 .content{
   background-color: rgba(0, 0, 0, 0.4);
-  width: 95%;
+  width: 90%;
  min-height: 90vh;
  margin: 40px auto;
  border-radius: 20px;
@@ -34,7 +34,8 @@ a{
   color: white;
 }
 .content .text{
-  font-size: 3rem;
+  font-size: 3.3rem;
+  text-align: center;
   font-weight: bolder;
 }
 .continue-btn{
@@ -52,8 +53,8 @@ a{
 }
 .roadmapArticle{
   display: flex;
-  justify-content: start;
-  align-items: center;
+  justify-content: center;
+  align-items:center;
   width: 70%;
   gap: 2rem 2rem;
   flex-wrap: wrap;
@@ -73,6 +74,11 @@ a{
   right: -2px;
   top: -6px;
   height: 10px;
+}
+
+.arrow-finish::after{
+  content: "";
+  display: none;
 }
 .roadmapitem{
   cursor: pointer;
@@ -94,6 +100,7 @@ a{
 }
 .roadmapitem h2{
   font-size: 1.2rem;
+  font-weight: bold;
 }
 .roadmapitem:hover{
   transform: scale(1.1);
@@ -114,4 +121,33 @@ transform: scale(1);
 100%{
   transform: scale(1.1);
 }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .roadmapArticle{
+    width: 95%;
+    gap: 1rem;
+  }
+  .roadmapitem{
+    cursor: pointer;
+    padding: 20px;
+    width: 120px;
+    
+  
+    
+  }
+  .roadmapitem img{
+    width: 50%;
+  }
+  .roadmapitem h2{
+    font-size:1rem;
+    font-weight: bold;
+
+  }
+  .content .text{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+  }
 }

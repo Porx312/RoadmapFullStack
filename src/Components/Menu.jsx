@@ -18,35 +18,36 @@ const Menu = () => {
       <div className="roadmapitem">
                <img src={html} alt="html5"/>
                <h2>Html 5</h2>
-           </div></Link>
            <div className="arrow"></div>
+           </div></Link>
             <Link to={"/css"}>
             <div className="roadmapitem">
                <img src={css} alt="css"/>
                <h2>Css</h2>
+           <div className="arrow"></div>
            </div>
             </Link>
-           <div className="arrow"></div>
 
             <Link to={"/js"}> 
             <div className="roadmapitem">
                <img src={js} alt="js"/>
                <h2>Javascript</h2>
+           <div className="arrow"></div>
            </div>
             </Link>
-           <div className="arrow"></div>
 
           <Link to={"/git"}>
           <div className="roadmapitem">
                <img src={git} alt="git"/>
                <h2>Git</h2>
                
-           </div></Link>
            <div className="arrow"></div>
+           </div></Link>
     <Link to={"/github"}>
            <div className="roadmapitem">
                <img src={github} alt="github"/>
                <h2>Github</h2>
+               <div className="arrow"></div>
                
            </div>
     </Link>
@@ -55,38 +56,50 @@ const Menu = () => {
                <img src={atom} alt="react"/>
                <h2>React.Js</h2>
                
+           <div className="arrow"></div>
            </div>
     </Link>
-           <div className="arrow"></div>
 
          <Link to={"/node"}> 
          <div className="roadmapitem">
                <img src={node} alt="node"/>
                <h2>Node.Js</h2>
+           <div className="arrow"></div>
            </div>
          </Link>
-           <div className="arrow"></div>
-
+        <Link to={"/express"}>
+            
            <div className="roadmapitem">
                <img src={express} alt="express"/>
                <h2>Express.Js</h2>
-           </div>
            <div className="arrow"></div>
+           </div>
+        </Link>
 
-           <div className="roadmapitem">
+            <Link to={"/mongodb"}>
+            <div className="roadmapitem">
                <img src={mongodb} alt="mongodb"/>
                <h2>MongoDB</h2>
-           </div>
            <div className="arrow"></div>
-
+           </div>
+            </Link>
+            <Link to={"/ts"}>
+                
            <div className="roadmapitem">
                <img src={ts} alt="ts"/>
                <h2>Typescript</h2>
+               <div className="arrow"></div>
+
            </div>
-           <div className="roadmapitem">
+            </Link>
+          <Link to={"/next"}>
+          <div className="roadmapitem">
                <img src={next} alt="ts"/>
                <h2>Next.Js</h2>
+               <div className=" arrow arrow-finish"></div>
+
            </div>
+          </Link>
            </article>
        <h2 className="press">press one to start </h2>
 
