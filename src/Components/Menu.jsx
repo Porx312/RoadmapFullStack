@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import atom from "../assets/skills/atom.png"
 import css from "../assets/skills/css-3.png"
 import html from "../assets/skills/html-5.png"
@@ -9,81 +10,80 @@ import mongodb from "../assets/skills/mongod.png"
 import git from "../assets/skills/git.png"
 import github from "../assets/skills/GitHubs.png"
 import next from "../assets/nextjs-icon-svgrepo-com.svg"
-import { Link } from "react-router-dom"
 const Menu = () => {
   return (
     <>
            <article className="roadmapArticle">
-      <Link to={"/html"}>
+      <NavLink to={"/html"}>
       <div className="roadmapitem">
                <img src={html} alt="html5"/>
                <h2>Html 5</h2>
            <div className="arrow"></div>
-           </div></Link>
-            <Link to={"/css"}>
+           </div></NavLink>
+            <NavLink to={"/css"}>
             <div className="roadmapitem">
                <img src={css} alt="css"/>
                <h2>Css</h2>
            <div className="arrow"></div>
            </div>
-            </Link>
+            </NavLink>
 
-            <Link to={"/js"}> 
+            <NavLink to={"/js"}> 
             <div className="roadmapitem">
                <img src={js} alt="js"/>
                <h2>Javascript</h2>
            <div className="arrow"></div>
            </div>
-            </Link>
+            </NavLink>
 
-          <Link to={"/git"}>
+          <NavLink to={"/git"}>
           <div className="roadmapitem">
                <img src={git} alt="git"/>
                <h2>Git</h2>
                
            <div className="arrow"></div>
-           </div></Link>
-    <Link to={"/github"}>
+           </div></NavLink>
+    <NavLink to={"/github"}>
            <div className="roadmapitem">
                <img src={github} alt="github"/>
                <h2>Github</h2>
                <div className="arrow"></div>
                
            </div>
-    </Link>
-    <Link to={"/react"}>
+    </NavLink>
+    <NavLink to={"/react"}>
            <div className="roadmapitem">
                <img src={atom} alt="react"/>
                <h2>React.Js</h2>
                
            <div className="arrow"></div>
            </div>
-    </Link>
+    </NavLink>
 
-         <Link to={"/node"}> 
+         <NavLink to={"/node"}> 
          <div className="roadmapitem">
                <img src={node} alt="node"/>
                <h2>Node.Js</h2>
            <div className="arrow"></div>
            </div>
-         </Link>
-        <Link to={"/express"}>
+         </NavLink>
+        <NavLink to={"/express"}>
             
            <div className="roadmapitem">
                <img src={express} alt="express"/>
                <h2>Express.Js</h2>
            <div className="arrow"></div>
            </div>
-        </Link>
+        </NavLink>
 
-            <Link to={"/mongodb"}>
+            <NavLink to={"/mongodb"}>
             <div className="roadmapitem">
                <img src={mongodb} alt="mongodb"/>
                <h2>MongoDB</h2>
            <div className="arrow"></div>
            </div>
-            </Link>
-            <Link to={"/ts"}>
+            </NavLink>
+            <NavLink to={"/ts"}>
                 
            <div className="roadmapitem">
                <img src={ts} alt="ts"/>
@@ -91,15 +91,15 @@ const Menu = () => {
                <div className="arrow"></div>
 
            </div>
-            </Link>
-          <Link to={"/next"}>
+            </NavLink>
+          <NavLink to={"/next"}>
           <div className="roadmapitem">
                <img src={next} alt="ts"/>
                <h2>Next.Js</h2>
                <div className=" arrow arrow-finish"></div>
 
            </div>
-          </Link>
+          </NavLink>
            </article>
        <h2 className="press">press one to start </h2>
 

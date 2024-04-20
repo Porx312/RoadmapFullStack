@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 const Css = () => {
   return (
     <div>
-    <Link className="link-back" to={"/"}> <code>&lt;</code></Link>
     <h2 className="icon i-css">CSS3</h2>
     <section className="content-program">
         <h2>Sesión Básica: Fundamentos de CSS</h2>

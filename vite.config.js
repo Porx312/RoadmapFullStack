@@ -7,5 +7,5 @@ const isProduction = process.env.NODE_ENV === 'production';
 export default defineConfig({
   plugins: [react()],
   base: isProduction ? './' : '../',
-  outDir: "../Portfolio", // Aquí defines la ruta personalizada
+  outDir: "../RoadmapFullStack" // Aquí defines la ruta personalizada
 });

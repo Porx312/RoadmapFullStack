@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 const Javascript = () => {
   return (
 <div>
-    <Link className="link-back" to={"/"}> <code>&lt;</code></Link>
     <h2 className="icon i-js">JavaScript</h2>
     <section className="content-program">
         <h2>Sesión Básica: Fundamentos de JavaScript</h2>

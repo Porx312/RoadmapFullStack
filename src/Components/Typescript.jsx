@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 const Typescript = () => {
   return (
     <div>
-    <Link className="link-back" to={"/"}> <code>&lt;</code></Link>
     <h2 className="icon">TypeScript</h2>
     <section className="content-program">
         <h2>Sesión Básica: Fundamentos de TypeScript</h2>

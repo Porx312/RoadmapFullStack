@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 const Reactx = () => {
   return (
     <div>
-    <Link className="link-back" to={"/"}> <code>&lt;</code></Link>
     <h2 className="icon">React</h2>
     <section className="content-program">
         <h2>Sesión Básica: Fundamentos de React</h2>

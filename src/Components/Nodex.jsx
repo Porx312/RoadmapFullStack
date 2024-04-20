@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 const Nodex = () => {
   return (
     <div>
-    <Link className="link-back" to={"/"}> <code>&lt;</code></Link>
     <h2 className="icon">Node.js</h2>
     <section className="content-program">
         <h2>Sesión Básica: Fundamentos de Node.js</h2>
